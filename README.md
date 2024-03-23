@@ -1,6 +1,6 @@
 # Data Science Portfolio
 
-## Projects @ General Assembly (FEB 2024 - MAY 2024)
+## Projects @ General Assembly
 ### Classifier for GRAB and GRABFOOD reviews
 hello hello
 
