@@ -1,4 +1,15 @@
-# Data Science Portfolio
+# Data Analytics & Science Portfolio
+
+## Data Analytics Projects
+
+### Tableau Visualisation on Superstore Dataset
+Created an interactive dashboard on Tableau consisting of KPI indicators, a map and area graphs for sales profit analysis by city, customer segment and item category.
+
+### Data Analysis (Excel) on Superstore Dataset
+Produced insightful analysis on Microsoft Excel using functions such as VLOOKUP, pivot tables and visualisations by answering various problem statements. For example, a stacked bar chart analysis for number of orders by ship mode and customer type.
+
+### SQL Queries on Iowa Liquor Sales & WSDA Music Database
+Worked on two databases that contain tables such as sales, customer, invoice and track. Queried multiple prompts by joining multiple tables, applying aggregate and date functions and subqueries on DB Browser for SQLite via LinkedIn Learning.
 
 ## Projects @ General Assembly
 
