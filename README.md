@@ -23,7 +23,7 @@ I built classifier models using a self-trained Convolutional Neural Network and 
 ### Mild Stroke Detection
 My group conducted research on stroke symptoms and numbers in USA. Since mild stroke symptoms can mimic other neurological symptoms, we decided to try and build a model that can detect a mild stroke based on a Kaggle dataset containing lifestyle factors of individuals. We conducted initial analysis on the dataset using visualisations to observe the distribution for BMI of the sample population, stroke occurence for each age group and high risk factors that can relate to stroke.
 
-![Exploratory Data Analysis](/p4 eda.png) 
+![Exploratory Data Analysis](/p4_eda_age.png) 
 
 We first classified between Stroke and No Stroke, using Decision Tree, Random Forest, Bagging, Adaboost, Support Vector and Gradient Boost models for comparison. After hypertuning, we selected Gradient Boost as our best model, with an F1 score of 0.767. Then, we applied KMeans, Density-Based and Hierachical clustering to those wrongly classified to capture Mild Stroke cases.
 
