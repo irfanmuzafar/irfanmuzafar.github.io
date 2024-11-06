@@ -4,12 +4,29 @@
 
 ### Tableau Visualisation on Superstore Dataset
 Created an interactive dashboard on Tableau consisting of KPI indicators, a map and area graphs for sales profit analysis by city, customer segment and item category.
+https://public.tableau.com/app/profile/irfan.muzafar/viz/ExecutiveOverview_17296907596580/Dashboard1
 
 ### Data Analysis (Excel) on Superstore Dataset
-Produced insightful analysis on Microsoft Excel using functions such as VLOOKUP, pivot tables and visualisations by answering various problem statements. For example, a stacked bar chart analysis for number of orders by ship mode and customer type.
+I analysed the dataset on Microsoft Excel using functions such as pivot tables and VLOOKUP. Thereafter, I produced insightful visualisations by answering various problem statements. 
+Problem Statement 1: Is there a pattern/trend of the orders shipped over time? 
+
+![Number of Orders by Year & Month](/excel_line.png) 
+
+From the line graph, we observe that the busier months tend to be September and December. There could be a trend related to back to school or holiday season. We might need additional data in future analysis to confirm.
+
+Problem Statement 2: Do some customer segments have more shipments by ship mode than others?
+Customer Segment consists of Consumer, Corporate or Home Office. The ship modes are First Class, Same Day, Second Class and Standard Class.
+
+![Number of Orders by Ship Mode & Customer Segment](/excel_stackedbar.png) 
+
+From the stacked bar chart, we observe that Consumer and Corporate segments (blue & orange) look to have the bulk of the orders in Standard Class and Same Day. Also, Second Class and First Class are fairly equal between Corporate and Home Office (orange & grey). Lastly, regardless of ship mode, Consumer (blue) makes up the largest percentage compared to other customer segments.
 
 ### SQL Queries on Iowa Liquor Sales & WSDA Music Database
-Worked on two databases that contain tables such as sales, customer, invoice and track. Queried multiple prompts by joining multiple tables, applying aggregate and date functions and subqueries on DB Browser for SQLite via LinkedIn Learning.
+Worked on two databases that contain tables such as sales, customer, invoice and track. Queried multiple prompts by joining multiple tables, applying aggregate and date functions and subqueries on DB Browser for SQLite via LinkedIn Learning. For example, if we want as many customers as possible to spend between $7 and $15, we can create categories for the purchase type. We can use CASE function to create a new column which classifies the purchase type. The query can be seen in the image below.
+
+![Using CASE to create new 'Purchase Type' column](/sql_create_column.png) 
+
+Then it will return five columns, with 'Purchase Type' as the last column, indicating in each row either 'Baseline Purchase', 'Low Purchase', 'Target Purchase' or 'Top Performer'. It will also be ordered alphabetically by the billing city (A to Z).
 
 ## Projects @ General Assembly
 
