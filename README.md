@@ -3,8 +3,11 @@
 ## Data Analytics Projects
 
 ### Tableau Visualisation on Superstore Dataset
-Created an interactive dashboard on Tableau consisting of KPI indicators, a map and area graphs for sales profit analysis by city, customer segment and item category.
-https://public.tableau.com/app/profile/irfan.muzafar/viz/ExecutiveOverview_17296907596580/Dashboard1
+I analysed the Superstore dataset, which contains data of the sales of a company in the USA. Some of the columns include Order ID, Order Date, Ship Mode, Item Category and Postal Code. With this data, I created an interactive dashboard on Tableau consisting of KPI indicators, a map and area graphs for sales profit analysis by city, customer segment and item category.
+
+![Executive Summary Dashboard on Tableau](/tableau_ss_dashboard.png)
+
+The interactive features can be viewed via this link: [Superstore Dashboard](https://public.tableau.com/app/profile/irfan.muzafar/viz/ExecutiveOverview_17296907596580/Dashboard1)
 
 ### Data Analysis (Excel) on Superstore Dataset
 I analysed the dataset on Microsoft Excel using functions such as pivot tables and VLOOKUP. Thereafter, I produced insightful visualisations by answering various problem statements. 
@@ -28,7 +31,7 @@ Worked on two databases that contain tables such as sales, customer, invoice and
 
 Then it will return five columns, with 'Purchase Type' as the last column, indicating in each row either 'Baseline Purchase', 'Low Purchase', 'Target Purchase' or 'Top Performer'. It will also be ordered alphabetically by the billing city (A to Z).
 
-## Projects @ General Assembly
+## Data Science Projects @ General Assembly
 
 ### Accident Severity Image Multi Classifier
 While analysing traffic accident fatalities and injuries data in Singapore, I found that the injury numbers are very high every year and there is an increasing trend in the number of fatalities and injuries from 2020. With that, I obtained an accident severity image dataset, classified into five accident severities: Fire, Minor, Moderate, No Accident and Severe, from Roboflow. 
